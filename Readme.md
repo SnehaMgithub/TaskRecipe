@@ -12,7 +12,13 @@ This is a CRUD (Create, Read, Update, Delete) application for managing recipes, 
 
 ## Technologies Used
 
-- **Node.js**: JavaScript runtime.
-- **Express.js**: Web framework for building the server and handling routes.
-- **Mongoose**: ODM (Object Data Modeling) library for MongoDB integration.
-- **Postman**: API testing and documentation tool.
+- **Node.js**: JavaScript runtime for building scalable applications.
+- **Express.js**: A web framework to handle routing and server-side logic.
+- **Mongoose**: ODM (Object Data Modeling) library for MongoDB to interact with the database easily.
+- **Postman**: A tool for testing and documenting APIs.
+
+## API Documentation
+
+For detailed API documentation, including request/response examples, you can refer to the full Postman documentation:
+
+https://documenter.getpostman.com/view/39168825/2sAY4rGRB6
