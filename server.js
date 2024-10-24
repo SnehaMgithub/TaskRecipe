@@ -21,7 +21,7 @@ connectDB();
 
 //default route
 app.get("/",(req,res)=>{
-    res.status(200).json({message:"Welcome to Recipes API"});
+    res.status(200).send("Welcome to Recipes API");
 })
 
 //default
