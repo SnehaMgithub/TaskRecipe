@@ -1,8 +1,7 @@
 import recipes from "../Model/recipesSchema.js";
 
 //POST
-export const createRecipes = async (req, res) => {
-  {
+export const createRecipes = async (req, res) => { 
     try {
       const newRecipe = new recipes(req.body);
       await newRecipe.save();
@@ -12,7 +11,6 @@ export const createRecipes = async (req, res) => {
     } catch (error) {
       res.status(500).json({ message: error.message });
     }
-  }
 };
 
 //GET Method
